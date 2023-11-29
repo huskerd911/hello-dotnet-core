@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_huskerd911_hello_dotnet_core_1701277982659-pr-trigger-input-set
+  identifier: Build_huskerd911_hello_dotnet_core_1701277982659prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: hellodevproject
+  pipeline:
+    identifier: Build_huskerd911_hello_dotnet_core_1701277982659
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
