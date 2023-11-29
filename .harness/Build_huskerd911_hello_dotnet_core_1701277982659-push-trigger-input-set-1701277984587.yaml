@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_huskerd911_hello_dotnet_core_1701277982659-push-trigger-input-set
+  identifier: Build_huskerd911_hello_dotnet_core_1701277982659pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: hellodevproject
+  pipeline:
+    identifier: Build_huskerd911_hello_dotnet_core_1701277982659
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
